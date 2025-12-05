@@ -19,7 +19,7 @@ import StaffCard from "./components/StaffCard";
 import StaffFormModal from "./components/StaffFormModal";
 import ViewProfileModal from "./components/ViewProfileModal";
 import NotificationBanner from "./components/NotificationBanner";
-
+ // Comment added for the git pull Request
 const App = () => {
   const [staff, setStaff] = useState([]);
   const [selectedStaff, setSelectedStaff] = useState(null);
